@@ -1,0 +1,278 @@
+<!-- Theo dõi đơn hàng -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/theo_d_i_n_"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true">
+    <!-- angle-left -->
+    <RelativeLayout
+        android:id="@+id/angle_left"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/angle_left"
+        android:clipToOutline="true" />
+    <!-- Đơn hàng #G22223 -->
+    <TextView
+        android:id="@+id/n_h_ng_g222"
+        android:layout_width="226dp"
+        android:layout_height="29dp"
+        android:layout_alignTop="@id/angle_left"
+        android:layout_toRightOf="@id/angle_left"
+        android:gravity="center_vertical"
+        android:text="@string/n_h_ng_g222"
+        android:textAppearance="@style/n_h_ng_g222" />
+    <!-- Rectangle 4185 -->
+    <!-- Mô tả đơn hàng -->
+    <View
+        android:id="@+id/rectangle_4185"
+        android:layout_width="371dp"
+        android:layout_height="350dp"
+        android:layout_below="@id/angle_left"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/rectangle_4185" />
+
+    <TextView
+        android:id="@+id/m_t_n_h_ng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/n_h_ng_g222"
+        android:layout_alignTop="@id/rectangle_4185"
+        android:layout_marginTop="11dp"
+        android:gravity="center_vertical"
+        android:text="@string/m_t_n_h_ng"
+        android:textAppearance="@style/m_t_n_h_ng" />
+    <!-- Tiramisu -->
+    <TextView
+        android:id="@+id/tiramisu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m_t_n_h_ng"
+        android:layout_alignLeft="@id/m_t_n_h_ng"
+        android:gravity="center_vertical"
+        android:text="@string/tiramisu"
+        android:textAppearance="@style/tiramisu" />
+
+    <TextView
+        android:id="@+id/tiramisu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tiramisu"
+        android:layout_alignLeft="@id/m_t_n_h_ng"
+        android:gravity="center_vertical"
+        android:text="@string/tiramisu"
+        android:textAppearance="@style/tiramisu" />
+
+    <TextView
+        android:id="@+id/tiramisu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tiramisu2"
+        android:layout_alignLeft="@id/m_t_n_h_ng"
+        android:gravity="center_vertical"
+        android:text="@string/tiramisu"
+        android:textAppearance="@style/tiramisu" />
+    <!-- 1 x -->
+    <TextView
+        android:id="@+id/x"
+        android:layout_width="16dp"
+        android:layout_height="15dp"
+        android:layout_alignBaseline="@id/tiramisu"
+        android:layout_marginLeft="264dp"
+        android:gravity="center_vertical"
+        android:text="@string/x"
+        android:textAppearance="@style/x" />
+
+    <TextView
+        android:id="@+id/x2"
+        android:layout_width="16dp"
+        android:layout_height="15dp"
+        android:layout_alignBaseline="@id/tiramisu2"
+        android:layout_marginLeft="264dp"
+        android:gravity="center_vertical"
+        android:text="@string/x"
+        android:textAppearance="@style/x" />
+
+    <TextView
+        android:id="@+id/x3"
+        android:layout_width="16dp"
+        android:layout_height="15dp"
+        android:layout_alignBaseline="@id/tiramisu3"
+        android:layout_marginLeft="264dp"
+        android:gravity="center_vertical"
+        android:text="@string/x"
+        android:textAppearance="@style/x" />
+    <!-- 169.000đ -->
+    <TextView
+        android:id="@+id/item_gia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tiramisu"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="314dp"
+        android:layout_marginTop="94dp"
+        android:gravity="center_vertical"
+        android:text="@string/item_gia"
+        android:textAppearance="@style/item_gia" />
+
+    <TextView
+        android:id="@+id/item_gia2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tiramisu2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="314dp"
+        android:layout_marginTop="94dp"
+        android:gravity="center_vertical"
+        android:text="@string/item_gia"
+        android:textAppearance="@style/item_gia" />
+
+    <TextView
+        android:id="@+id/item_gia3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tiramisu3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="314dp"
+        android:layout_marginTop="94dp"
+        android:gravity="center_vertical"
+        android:text="@string/item_gia"
+        android:textAppearance="@style/item_gia" />
+    <!-- Tổng -->
+    <TextView
+        android:id="@+id/t_ng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tiramisu3"
+        android:layout_marginTop="12dp"
+        android:layout_alignLeft="@id/m_t_n_h_ng"
+        android:gravity="center_vertical"
+        android:text="@string/t_ng"
+        android:textAppearance="@style/t_ng" />
+    <!-- 567.000đ -->
+    <TextView
+        android:id="@+id/tong_tien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/t_ng"
+        android:gravity="center_vertical"
+        android:layout_alignRight="@id/item_gia"
+        android:text="@string/tong_tien"
+        android:textAppearance="@style/tong_tien" />
+    <!-- Trạng thái -->
+    <TextView
+        android:id="@+id/tr_ng_th_i"
+        android:layout_width="98dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="207dp"
+        android:gravity="center_vertical"
+        android:text="@string/tr_ng_th_i"
+        android:textAppearance="@style/tr_ng_th_i" />
+    <!-- Xác nhận đơn hàng -->
+    <TextView
+        android:id="@+id/xac_nhan_don_hang"
+        android:layout_width="112dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="243dp"
+        android:text="@string/xac_nhan_don_hang"
+        android:textAppearance="@style/xac_nhan_don_hang"
+        android:gravity="center_vertical"
+        />
+    <!-- 21:00 19/02/2023 -->
+    <TextView
+        android:id="@+id/thoi_gian_xndh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="267dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="243dp"
+        android:layout_alignRight="@id/tong_tien"
+        android:text="@string/thoi_gian_xndh"
+        android:textAppearance="@style/thoi_gian_xndh"
+        android:gravity="right|center_vertical"
+        />
+    <!-- Đơn hàng đang được chuẩn bị -->
+    <TextView
+        android:id="@+id/thoi_gian_cbdh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="274dp"
+        android:text="@string/thoi_gian_cbdh"
+        android:textAppearance="@style/thoi_gian_cbdh"
+        android:gravity="center_vertical"
+        />
+    <!-- 09:00 20/02/2023 -->
+    <TextView
+        android:id="@+id/timestamp_htcb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="262dp"
+        android:layout_alignRight="@id/thoi_gian_xndh"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="274dp"
+        android:text="@string/timestamp_htcb"
+        android:textAppearance="@style/timestamp_htcb"
+        android:gravity="right|center_vertical"
+        />
+    <!-- Đơn hàng dự kiến hoàn thành: -->
+    <TextView
+        android:id="@+id/n_h_ng_d_ki"
+        android:layout_width="232dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="331dp"
+        android:gravity="center_vertical"
+        android:text="@string/n_h_ng_d_ki"
+        android:textAppearance="@style/n_h_ng_d_ki" />
+    <!-- 2 ngày nữa -->
+    <TextView
+        android:id="@+id/ng_y_n_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="357dp"
+        android:gravity="center_vertical"
+        android:text="@string/ng_y_n_a"
+        android:textAppearance="@style/ng_y_n_a" />
+    <!-- Vector -->
+    <View
+        android:id="@+id/vector_delivery"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="522dp"
+        android:background="@drawable/vector_delivery" />
+
+    <Button
+        android:id="@+id/btnThongTinCaNhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rectangle_4185"
+        android:layout_alignStart="@+id/vector_delivery"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="23dp"
+        android:text="thông tin cá nhân" />
+
+</RelativeLayout>

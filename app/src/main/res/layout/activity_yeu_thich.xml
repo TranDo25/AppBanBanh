@@ -1,0 +1,183 @@
+<!-- Yêu thích (trống) -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_yeu_thich"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    >
+    <!-- Yêu thích -->
+    <TextView
+        android:id="@+id/txt_yeu_thich"
+        android:layout_width="109dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="27dp"
+        android:text="@string/y_u_th_ch"
+        android:textAppearance="@style/y_u_th_ch"
+        android:gravity="center_vertical"
+        />
+    <!-- Group 18043 -->
+    <RelativeLayout
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="234dp"
+        >
+
+        <!-- Vector -->
+
+        <View
+            android:id="@+id/rectangle_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rectangle_4" />
+
+        <View
+            android:id="@+id/vector_noti_bell"
+            android:layout_width="21.88dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="38.12dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/vector_noti_bell" />
+        <!-- 99 -->
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="21dp"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center_vertical"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id" />
+        <!-- + -->
+        <TextView
+            android:id="@+id/some_id_plus"
+            android:layout_width="10dp"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center_vertical"
+            android:text="@string/some_id_plus"
+            android:textAppearance="@style/some_id_plus" />
+    </RelativeLayout>
+    <!-- Rectangle 4191 -->
+
+    <!-- Group 18043 -->
+    <RelativeLayout
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="320dp"
+        >
+
+        <!-- Vector -->
+
+        <View
+            android:id="@+id/rectangle_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rectangle_4" />
+
+        <View
+            android:id="@+id/vector_mini_cart"
+            android:layout_width="21.88dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="3.78dp"
+            android:background="@drawable/vector_gio_hang_mini" />
+        <!-- 99 -->
+        <TextView
+            android:id="@+id/some_id_cart_noti_number"
+            android:layout_width="21dp"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center_vertical"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id" />
+        <!-- + -->
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center_vertical"
+            android:text="@string/some_id_plus"
+            android:textAppearance="@style/some_id_plus" />
+    </RelativeLayout>
+    <!-- Sản phẩm yêu thích của bạn là gì? -->
+    <TextView
+        android:id="@+id/txt_sp_yeu_thich"
+        android:layout_width="343dp"
+        android:layout_height="76dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/sp_yeu_thich"
+        android:textAppearance="@style/sp_yeu_thich"
+        android:gravity="center_vertical"
+        />
+    <!-- Vector -->
+    <View
+        android:id="@+id/vector_heart"
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop = "287dp"
+        android:background="@drawable/vector_heart" />
+    <!-- Bạn chưa có sản phẩm yêu thích nào! -->
+    <TextView
+        android:id="@+id/chua_co_sp_yeu_thich_nao"
+        android:layout_width="268dp"
+        android:layout_height="68dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="483dp"
+        android:text="@string/ban_chua_co_sp_yeu_thich_nao"
+        android:textAppearance="@style/b_n_ch_a_c_"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <Button
+        android:id="@+id/btnThanhToan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chua_co_sp_yeu_thich_nao"
+        android:layout_alignStart="@+id/chua_co_sp_yeu_thich_nao"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="54dp"
+        android:text="Thanh toán" />
+</RelativeLayout>

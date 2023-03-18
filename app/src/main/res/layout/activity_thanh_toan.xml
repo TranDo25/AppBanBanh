@@ -1,0 +1,323 @@
+<!-- Thanh toán -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/thanh_to_n"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <!-- angle-left -->
+    <RelativeLayout
+        android:id="@+id/angle_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/angle_left"
+        android:clipToOutline="true" />
+    <!-- Thanh toán -->
+    <TextView
+        android:id="@+id/thanh_toan"
+        android:layout_width="132dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="27dp"
+        android:gravity="center_vertical"
+        android:text="@string/thanh_toan"
+        android:textAppearance="@style/thanh_toan" />
+
+    <RelativeLayout
+        android:id="@+id/large_retangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="163dp">
+        <!-- Rectangle 4185 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/dia_chi_nhan_hang"
+            android:layout_alignRight="@id/rectangle_4193"
+            android:translationZ="1dp">
+
+            <View
+                android:id="@+id/rectangle_n3"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/retangle_n3"
+                android:translationZ="10dp"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/thay_doi"
+                android:layout_width="50dp"
+                android:layout_height="15dp"
+                android:layout_below="@id/rectangle_n3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="@string/thay_doi"
+                android:textAppearance="@style/thay_doi"
+                android:translationZ="10dp"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+
+        </RelativeLayout>
+        <!-- Tiramisu -->
+
+
+        <View
+            android:id="@+id/rectangle_4"
+            android:layout_width="371dp"
+            android:layout_height="590dp"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/rectangle_4185" />
+
+        <!-- 2 sản phẩm khác -->
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/image_9" />
+
+        <!-- Địa chỉ nhận hàng -->
+
+        <TextView
+            android:id="@+id/tiramisu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="41dp"
+            android:layout_alignTop="@id/imageView2"
+            android:layout_toRightOf="@id/imageView2"
+            android:text="@string/tiramisu"
+            android:textAppearance="@style/tiramisu" />
+
+        <TextView
+            android:id="@+id/two_sp_khac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tiramisu"
+            android:layout_alignLeft="@id/tiramisu"
+            android:layout_marginRight="10dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_toRightOf="@id/imageView2"
+            android:gravity="center_vertical"
+            android:text="@string/two_sp_khac"
+            android:textAppearance="@style/tiramisu" />
+
+        <TextView
+            android:id="@+id/dia_chi_nhan_hang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="131dp"
+            android:gravity="right|center_vertical"
+            android:text="@string/dia_chi_nhan_hang"
+            android:textAppearance="@style/pink" />
+        <!-- Thay đổi -->
+        <!-- Rectangle 4194 -->
+
+
+        <TextView
+            android:id="@+id/ng_697_gi_i"
+            android:layout_width="223dp"
+            android:layout_height="37dp"
+            android:layout_below="@id/dia_chi_nhan_hang"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="11dp"
+            android:gravity="center_vertical"
+            android:text="@string/ng_697_gi_i"
+            android:textAppearance="@style/ng_697_gi_i" />
+        <!-- Mã giảm giá -->
+        <TextView
+            android:id="@+id/m_gi_m_gi_"
+            android:layout_width="93dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="255dp"
+            android:gravity="center_vertical"
+            android:text="@string/m_gi_m_gi_"
+            android:textAppearance="@style/m_gi_m_gi_" />
+        <!-- Rectangle 4193 -->
+        <View
+            android:id="@+id/rectangle_4193"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="156dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/rectangle_4193" />
+        <!-- 31VCKL1AEMATT3R -->
+        <TextView
+            android:id="@+id/vckl1aematt"
+            android:layout_width="137dp"
+            android:layout_height="17dp"
+            android:layout_alignBottom="@id/m_gi_m_gi_"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="178dp"
+            android:layout_marginTop="253dp"
+            android:gravity="center_vertical"
+            android:text="@string/vckl1aematt"
+            android:textAppearance="@style/vckl1aematt" />
+        <!-- Tổng -->
+        <TextView
+            android:id="@+id/t_ng"
+            android:layout_width="39dp"
+            android:layout_height="19dp"
+            android:layout_alignLeft="@id/m_gi_m_gi_"
+            android:layout_marginTop="311dp"
+            android:text="@string/t_ng"
+            android:textAppearance="@style/t_ng"
+            android:gravity="center_vertical"
+            />
+        <!-- 567.000đ -->
+        <TextView
+            android:id="@+id/tong_tien_dash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_alignBottom="@id/t_ng"
+            android:layout_alignRight="@id/rectangle_4193"
+            android:layout_marginTop="311dp"
+            android:text="@string/tong_tien_dash"
+            android:textAppearance="@style/tong_tien_dash"
+            android:gravity="right|center_vertical"
+            />
+        <!-- 391.230đ -->
+        <TextView
+            android:id="@+id/tong_tien_phai_tra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/tong_tien_dash"
+            android:layout_marginTop="341dp"
+            android:text="@string/tong_tien_phai_tra"
+            android:textAppearance="@style/tong_tien_phai_tra"
+            android:gravity="right|center_vertical"
+            />
+        <!-- Phương thức thanh toán -->
+        <TextView
+            android:id="@+id/phuong_thuc_thanh_toan"
+            android:layout_width="236dp"
+            android:layout_height="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@id/t_ng"
+            android:layout_marginTop="387dp"
+            android:text="@string/phuong_thuc_thanh_toan"
+            android:textAppearance="@style/phuong_thuc_thanh_toan"
+            android:gravity="center_vertical"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationZ="1dp"
+            android:layout_alignBottom="@id/phuong_thuc_thanh_toan"
+            android:layout_alignRight="@id/tong_tien_dash"
+            >
+
+            <View
+                android:id="@+id/rectangle_n3_2"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/retangle_n3"
+                android:translationZ="10dp"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/thay_doi_2"
+                android:layout_width="50dp"
+                android:layout_height="15dp"
+                android:layout_below="@id/rectangle_n3_2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="@string/thay_doi"
+                android:textAppearance="@style/thay_doi"
+                android:translationZ="10dp"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+
+        </RelativeLayout>
+        <!-- MoMo e-wallet:****2171 -->
+        <TextView
+            android:id="@+id/momo_e_wall"
+            android:layout_width="238dp"
+            android:layout_height="24dp"
+            android:layout_below="@id/phuong_thuc_thanh_toan"
+            android:layout_alignLeft="@id/phuong_thuc_thanh_toan"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical"
+            android:text="@string/momo_e_wall"
+            android:textAppearance="@style/momo_e_wall" />
+
+        <Button
+            android:id="@+id/btnTheoDoiDonHang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="87dp"
+            android:text="Theo dõi đơn hàng" />
+    </RelativeLayout>
+    <!-- image 9 -->
+    <!-- 69 ngõ 697 Giải Phóng, Giáp Bát, Hoàng Mai, Hà Nội -->
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="391dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="680dp"
+        android:background="@drawable/rectangle_3"
+        />
+    <!-- Thanh toán -->
+    <TextView
+        android:id="@+id/thanh_toan_btn"
+        android:layout_width="132dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="693dp"
+        android:text="@string/thanh_toan_btn"
+        android:textAppearance="@style/thanh_toan_btn"
+        android:gravity="top"
+        />
+
+</RelativeLayout>

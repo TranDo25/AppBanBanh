@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gio_hang_trong"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    >
+
+    <!-- Giỏ hàng đang trống! -->
+
+    <!-- angle-left -->
+
+    <View
+        android:id="@+id/vector"
+        android:layout_width="220dp"
+        android:layout_height="190dp"
+       android:layout_marginTop="287dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/vector" />
+
+    <TextView
+        android:id="@+id/gi_h_ng_ang"
+        android:layout_width="245dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="507dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/gi_h_ng_ang"
+        android:textAppearance="@style/gi_h_ng_ang" />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/angle_left"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="3dp"
+        android:clipToOutline="true"
+        android:background="@drawable/angle_left"
+        />
+    <!-- Giỏ hàng -->
+    <!-- Mua hàng ngay! -->
+
+    <TextView
+        android:id="@+id/gi_h_ng"
+        android:layout_width="110dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-2dp"
+        android:gravity="center_vertical"
+        android:text="@string/gi_h_ng"
+        android:textAppearance="@style/gi_h_ng" />
+
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="391dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/rectangle_3" />
+
+    <TextView
+        android:id="@+id/mua_h_ng_ng"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="671dp"
+        android:gravity="top"
+        android:text="@string/mua_h_ng_ng"
+        android:textAppearance="@style/mua_h_ng_ng" />
+
+    <Button
+        android:id="@+id/btnNextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/gi_h_ng"
+        android:text="Chuyển trang" />
+</RelativeLayout>

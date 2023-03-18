@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="them_the_ngan_hang">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="them_pt_thanh_toan">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="txt_doi_mk">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="dia_chi">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="phone_number">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="email_giang">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="ho_ten">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="timestamp_htcb">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="thoi_gian_cbdh">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#574143</item>
+    </style>
+    <style name="thoi_gian_xndh">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="xac_nhan_don_hang">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="tong_tien">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#574143</item>
+    </style>
+    <style name="item_gia">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="x">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="ng_y_n_a">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#574143</item>
+    </style>
+
+    <style name="n_h_ng_d_ki">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="tr_ng_th_i">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="m_t_n_h_ng">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="n_h_ng_g222">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="thanh_toan_btn">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFF6F7</item>
+    </style>
+    <style name="momo_e_wall">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#574143</item>
+    </style>
+    <style name="phuong_thuc_thanh_toan">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="tong_tien_phai_tra">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#574143</item>
+    </style>
+    <style name="tong_tien_dash">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="t_ng">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="m_gi_m_gi_">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#574143</item>
+    </style>
+    <style name="vckl1aematt">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="ng_697_gi_i">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="pink">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="thay_doi">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FDFDFD</item>
+    </style>
+    <style name="tiramisu">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="thanh_toan">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="sp_yeu_thich">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#574143</item>
+    </style>
+    <style name="y_u_th_ch">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="gi_h_ng_ang">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">#F18C9E</item>
+
+    </style>
+    <!-- styles.xml -->
+    <style name="some_id">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFF6F7</item>
+    </style>
+    <!-- styles.xml -->
+    <style name="some_id_plus">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="n_h_ng">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+    <style name="gi_h_ng">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">#FF647F</item>
+
+    </style>
+    <style name="mua_h_ng_ng">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">#FFF6F7</item>
+
+    </style>
+    <style name="b_n_ch_a_c_">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FF647F</item>
+    </style>
+</resources>

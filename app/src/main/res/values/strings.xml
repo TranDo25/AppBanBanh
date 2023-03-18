@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="phone_number">Điện thoại: 016780688432</string>
+    <string name="email_giang">Email: gianghn21@gmail.com</string>
+    <string name="ho_ten">Lê Trường Giang</string>
+    <string name="thoi_gian_cbdh">Đơn hàng chuẩn bị xong</string>
+    <string name="tai_khoan">Tài khoản</string>
+    <string name="timestamp_htcb">09:00 20/02/2023</string>
+    <string name="thoi_gian_xndh">21:00 19/02/2023</string>
+    <string name="xac_nhan_don_hang">Xác nhận đơn hàng</string>
+    <string name="tong_tien">567.000 vnđ</string>
+    <string name="item_gia">169.000 vnđ</string>
+    <string name="x">1 x</string>
+    <string name="ng_y_n_a">2 ngày nữa</string>
+    <string name="n_h_ng_d_ki">Đơn hàng dự kiến hoàn thành:</string>
+    <string name="tr_ng_th_i">Trạng thái</string>
+    <string name="m_t_n_h_ng">Mô tả đơn hàng</string>
+    <string name="n_h_ng_g222">Đơn hàng #G22223</string>
+    <string name="thanh_toan_btn">Thanh toán</string>
+    <string name="momo_e_wall">MoMo e-wallet:****2171</string>
+    <string name="tong_tien_phai_tra">391.230 vnđ</string>
+    <string name="phuong_thuc_thanh_toan">Phương thức thanh toán</string>
+    <string name="tong_tien_dash">567.000 vnđ</string>
+    <string name="t_ng">Tổng</string>
+    <string name="vckl1aematt">31VCKL1AEMATT3R</string>
+    <string name="m_gi_m_gi_">Mã giảm giá</string>
+    <string name="ng_697_gi_i">69 ngõ 697 Giải Phóng, Giáp Bát, Hoàng Mai, Hà Nội</string>
+    <string name="two_sp_khac">2 sản phẩm khác</string>
+    <string name="thay_doi">Thay đổi</string>
+    <string name="dia_chi_nhan_hang">Địa chỉ nhận hàng</string>
+    <string name="tiramisu">Tiramisu</string>
+    <string name="thanh_toan">Thanh toán</string>
+    <string name="ban_chua_co_sp_yeu_thich_nao">Bạn chưa có sản phẩm yêu thích nào</string>
+    <string name="sp_yeu_thich">Sản phẩm yêu thích của bạn là gì?</string>
+    <string name="y_u_th_ch">Yêu thích</string>
+    <string name="app_name">App bán bánh</string>
+    <string name="gi_h_ng_ang">Giỏ hàng đang trống</string>
+    <string name="gi_h_ng">Giỏ hàng</string>
+    <string name="mua_h_ng_ng">Mua hàng ngay</string>
+    <string name="b_n_ch_a_c_">Bạn chưa tạo đơn hàng nào</string>
+    <string name="n_h_ng">Đơn hàng</string>
+    <string name="some_id">99</string>
+    <string name="some_id_plus">+</string>
+</resources>

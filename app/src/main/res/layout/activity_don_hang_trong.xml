@@ -1,0 +1,175 @@
+<!-- Đơn hàng (trống) -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    >
+    <!-- Đơn hàng -->
+    <TextView
+        android:id="@+id/n_h_ng"
+        android:layout_width="111dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/n_h_ng"
+        android:textAppearance="@style/n_h_ng"
+        android:gravity="center_vertical"
+        />
+    <!-- Bạn chưa có đơn hàng nào! -->
+    <TextView
+        android:id="@+id/b_n_ch_a_c_"
+        android:layout_width="315dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/b_n_ch_a_c_"
+        android:textAppearance="@style/b_n_ch_a_c_"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_below="@id/vector_large_cart"
+
+        />
+
+
+
+
+    <!-- Group 18043 -->
+    <RelativeLayout
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:background="#F35B5B"
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="234dp"
+        >
+
+        <!-- Vector -->
+
+        <View
+            android:id="@+id/rectangle_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rectangle_4" />
+
+        <View
+            android:id="@+id/vector"
+            android:layout_width="21.88dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="38.12dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/vector_noti_bell" />
+        <!-- 99 -->
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="21dp"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center_vertical"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id" />
+        <!-- + -->
+        <TextView
+            android:id="@+id/some_id_plus"
+            android:layout_width="10dp"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center_vertical"
+            android:text="@string/some_id_plus"
+            android:textAppearance="@style/some_id_plus" />
+    </RelativeLayout>
+    <!-- Rectangle 4191 -->
+
+    <!-- Group 18043 -->
+    <RelativeLayout
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:background="#DCCA56"
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="320dp"
+        >
+
+        <!-- Vector -->
+
+        <View
+            android:id="@+id/rectangle_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rectangle_4" />
+
+        <View
+            android:id="@+id/vector_mini_cart"
+            android:layout_width="21.88dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="3.78dp"
+            android:background="@drawable/vector_gio_hang_mini" />
+        <!-- 99 -->
+        <TextView
+            android:id="@+id/some_id_cart_noti_number"
+            android:layout_width="21dp"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center_vertical"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id" />
+        <!-- + -->
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center_vertical"
+            android:text="@string/some_id_plus"
+            android:textAppearance="@style/some_id_plus" />
+    </RelativeLayout>
+    <!-- Rectangle 4191 -->
+    <!-- Vector -->
+    <View
+        android:id="@+id/vector_large_cart"
+        android:layout_width="160dp"
+        android:layout_height="190dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="287dp"
+        android:background="@drawable/vector_tbl_lst" />
+
+    <Button
+        android:id="@+id/btnNextViewYeuThich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/b_n_ch_a_c_"
+        android:layout_alignBottom="@+id/b_n_ch_a_c_"
+        android:layout_marginStart="82dp"
+        android:layout_marginBottom="-106dp"
+        android:text="chuyển trang" />
+</RelativeLayout>
