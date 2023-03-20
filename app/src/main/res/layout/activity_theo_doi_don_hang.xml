@@ -262,7 +262,8 @@
         android:layout_width="250dp"
         android:layout_height="200dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="522dp"
+android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
         android:background="@drawable/vector_delivery" />
 
     <Button
@@ -271,8 +272,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/rectangle_4185"
         android:layout_alignStart="@+id/vector_delivery"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="23dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="-57dp"
         android:text="thông tin cá nhân" />
 
 </RelativeLayout>

@@ -6,41 +6,40 @@
     android:clipToOutline="true"
     >
     <!-- Đơn hàng -->
+    <!-- Bạn chưa có đơn hàng nào! -->
+
+
+    <!-- Group 18043 -->
     <TextView
         android:id="@+id/n_h_ng"
         android:layout_width="111dp"
         android:layout_height="32dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="10dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="30dp"
-        android:text="@string/n_h_ng"
-        android:textAppearance="@style/n_h_ng"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="27dp"
         android:gravity="center_vertical"
-        />
-    <!-- Bạn chưa có đơn hàng nào! -->
+
+        android:text="@string/n_h_ng"
+        android:textAppearance="@style/n_h_ng" />
+
     <TextView
         android:id="@+id/b_n_ch_a_c_"
-        android:layout_width="315dp"
-        android:layout_height="29dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vector_large_cart"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="49dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
         android:layout_marginTop="20dp"
         android:text="@string/b_n_ch_a_c_"
         android:textAppearance="@style/b_n_ch_a_c_"
-        android:gravity="center_horizontal|center_vertical"
-        android:layout_below="@id/vector_large_cart"
 
         />
 
-
-
-
-    <!-- Group 18043 -->
     <RelativeLayout
         android:layout_width="70dp"
         android:layout_height="30dp"
-        android:background="#F35B5B"
         android:layout_marginTop="27dp"
         android:layout_marginLeft="234dp"
         >
@@ -100,7 +99,6 @@
     <RelativeLayout
         android:layout_width="70dp"
         android:layout_height="30dp"
-        android:background="#DCCA56"
         android:layout_marginTop="27dp"
         android:layout_marginLeft="320dp"
         >
@@ -159,7 +157,8 @@
         android:id="@+id/vector_large_cart"
         android:layout_width="160dp"
         android:layout_height="190dp"
-        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
         android:layout_marginTop="287dp"
         android:background="@drawable/vector_tbl_lst" />
 
@@ -169,7 +168,7 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/b_n_ch_a_c_"
         android:layout_alignBottom="@+id/b_n_ch_a_c_"
-        android:layout_marginStart="82dp"
-        android:layout_marginBottom="-106dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="-111dp"
         android:text="chuyển trang" />
 </RelativeLayout>
